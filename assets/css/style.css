@@ -18,12 +18,12 @@ header{
 }
 
 header .logo {
-  width: 20vw;
-  font-weight: 600;
+  width: 15vw;
+  font-weight: 500;
  align-items: center;
  color: white;
- 
-
+ font-family: 'Koulen', cursive;
+letter-spacing: 7px;
         
 }
 header .lista {
@@ -31,10 +31,11 @@ header .lista {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
-    font-weight: 600;
-    letter-spacing: 1px;
+    font-weight: 400;
+    letter-spacing: 5px;
     list-style-type: none;
     color:white;
+    font-size: 0.7vw;
 }
 main{
     display: flex;
@@ -43,19 +44,33 @@ main{
     padding: 2vw;
     padding-top: 10vh;
     color:white;
-    line-height: 1;
+    line-height: 0.7;
 }
 #title{
+    font-weight:200;
     font-size: 3vw;
-    font-family: 'Nunito', sans-serif;
+    font-family:'Josefin Sans', sans-serif;
     letter-spacing: 7px;
 }
-#title-paragrafo{
+.title-paragrafo{
     font-size: 1vw;
+}
+.title-paragrafo::before{
+    background-color: white;
+    content: "";
+    display:inline-block;
+    height:1px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+}
+.title-paragrafo:before{
+    right: 0.5em;
 }
 #numero-lateral{
     color:white;
     letter-spacing: 8px;
+    font-size: medium;
 }
 footer{
     display: flex;
