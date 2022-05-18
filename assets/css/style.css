@@ -6,9 +6,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-clip: padding-box;
-    background-position:right bottom;
-
-    
+    background-position:right bottom;   
    
 }
 header{ 
@@ -20,10 +18,10 @@ header{
 header .logo {
   width: 15vw;
   font-weight: 500;
- align-items: center;
- color: white;
- font-family: 'Koulen', cursive;
-letter-spacing: 7px;
+  align-items: center;
+  color: white;
+  font-family: 'Koulen', cursive;
+  letter-spacing: 7px;
         
 }
 header .lista {
@@ -43,11 +41,11 @@ main{
     justify-content: space-between;
     padding: 2vw;
     padding-top: 10vh;
-    color:white;
+    color:#f2f5fa;
     line-height: 0.7;
 }
 #title{
-    font-weight:200;
+    font-weight:100;
     font-size: 3vw;
     font-family:'Josefin Sans', sans-serif;
     letter-spacing: 7px;
@@ -56,21 +54,21 @@ main{
     font-size: 1vw;
 }
 .title-paragrafo::before{
-    background-color: white;
+    background-color: #f2f5fa;
     content: "";
     display:inline-block;
     height:1px;
     position: relative;
     vertical-align: middle;
-    width: 20%;
+    width: 15%;
 }
 .title-paragrafo:before{
     right: 0.5em;
 }
 #numero-lateral{
-    color:white;
+    color: #f2f5fa;
     letter-spacing: 8px;
-    font-size: medium;
+    font-size:large;
 }
 footer{
     display: flex;
@@ -80,7 +78,7 @@ footer{
     left: 0;
     right: 0;
     bottom: 0;
-    color: white;
+    color:#f2f5fa ;
     line-height: 0.5;
 
 
@@ -106,11 +104,10 @@ h3{
     font-size: 1vw;
     font-weight: 100;
     letter-spacing: 4px;
-}
+} 
 #texto-lateral{
     display:flex;
     flex-direction: column;
-
     padding-left: 17vw;
     font-size: x-small;
     line-height: 0.3;
